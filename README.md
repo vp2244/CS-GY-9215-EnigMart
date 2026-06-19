@@ -17,10 +17,10 @@ This example project includes:
 ### From root directory
 
 ```shell
-npm run dev          # Start Hardhat dev node
-hardhat test         # Run all tests (Solidity + TypeScript)
-hardhat test solidity # Solidity tests only
-npm run build        # Compile contracts
+npx hardhat compile         # Compile hardhat 
+npx hardhat node         # Run local node
+npx hardhat test        # Run all tests (Solidity + TypeScript)
+npx hardhat ignition deploy <PATH>       # Deploy Token locally
 ```
 
 ```shell
